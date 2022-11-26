@@ -1,6 +1,6 @@
 Fusion
 ===============
-Fusion is a metamorphic testing approach than can work with a single SMT solver.If multiple suitable SMT solvers are available for your use-case, we recommend using ``opfuzz`` instead.     
+Fusion is a metamorphic testing approach than can work with a single SMT solver. If multiple suitable SMT solvers are available for your use-case, we recommend using ``opfuzz`` instead.     
 
 
 Basic Idea
@@ -23,7 +23,7 @@ Usage
 
 where
 
-* ``<solver_clis>`` a sequence of SMT solver commandlines separated by semicolons `;`. Note, since Fusion is a metamorphic testing approach, one SMT solver is sufficient.
+* ``<solver_clis>`` a sequence of SMT solver commandlines separated by semicolons `;`. Note, since fusion is a metamorphic testing approach, one SMT solver is sufficient.
 
 * ``<oracle>`` desired test oracle result {sat, unsat}.
 
